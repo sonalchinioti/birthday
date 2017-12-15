@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context="com.whitebutter.birhtday.activities.NMainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_vr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nonu  kissei kei B'day mei "
+        android:textAppearance="@style/LRegular"
+        android:textColor="@color/white"
+        android:background="@color/brand_color"
+        android:textSize="27sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="18dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="28"
+        android:textColor="@color/white"
+        android:textSize="150sp"
+        android:textAppearance="@style/LRegular"
+        android:layout_marginLeft="@dimen/big_margin"
+        android:layout_marginRight="@dimen/big_margin"
+        android:layout_marginTop="20dp"
+       android:layout_below="@+id/tv_vr"
+        android:background="@color/brand_color"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv_days_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="55sp"
+        android:textColor="@color/white"
+        android:textAppearance="@style/LRegular"
+        android:text="Days are Left"
+        android:background="@color/brand_color"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_below="@+id/tv_date"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:id="@+id/tv_ic_arrow"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/icon"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp" />
+
+
+
+</RelativeLayout>

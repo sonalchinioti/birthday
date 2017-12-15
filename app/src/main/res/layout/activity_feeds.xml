@@ -1,0 +1,188 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/bg_image"
+                android:orientation="vertical"
+                android:paddingBottom="45dp"
+                android:paddingTop="@dimen/big_margin">
+
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity=""
+                    android:gravity="center"
+                    android:text="Happy Birthday "
+                    android:textAppearance="@style/LRegular"
+
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/tv_tagline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Sampada Mahajan"
+                    android:textAppearance="@style/LRegular"
+                    android:textColor="@color/white" />
+
+
+
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/big_margin"
+                    android:src="@drawable/heart_ani"
+                    android:id="@+id/heart"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:gravity="center"
+                    android:background="@color/brand_color"
+                    android:text="This is my fav pic and your cute smile kill's"
+                    android:textAppearance="@style/LRegular"
+                    android:layout_margin="@dimen/small_margin"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/toolbar"
+                android:layout_marginLeft="@dimen/small_margin"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_marginTop="-25dp"
+                android:orientation="vertical">
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/ll_birthday_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button_shadow"
+                    android:orientation="horizontal"
+
+                    android:padding="50dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/present"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/small_margin"
+                        android:gravity="center_vertical"
+                        android:text="Birthday Message"
+                        android:textAppearance="@style/LRegular"
+                        android:textColor="@color/brand_color"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_today_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button_shadow"
+                    android:orientation="horizontal"
+
+                    android:padding="50dp">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/gift_box"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/small_margin"
+                        android:gravity="center_vertical"
+                        android:text="Bunny's Today Message"
+                        android:textAppearance="@style/LRegular"
+                        android:textColor="@color/brand_color"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_all_videos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:background="@drawable/rounded_button_shadow"
+                    android:orientation="horizontal"
+                    android:padding="50dp">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/viddeo"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/small_margin"
+                        android:gravity="center_vertical"
+                        android:text="All the videos"
+                        android:textAppearance="@style/LRegular"
+                        android:textColor="@color/brand_color"
+                        android:textSize="20sp" />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+

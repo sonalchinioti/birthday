@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tullu\'s 23rd </string>
+    <string name="title_speaker_note">Medanta - The Medicity \n
+                                      Invites You to VR in Neuroscience 17 \n
+                                      - Dr. Gaurav Goel</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">286940434812803</string>
+
+    <string name ="facebook_on_error_msg">Something went wrong </string>
+    <string name ="facebook_on_cancel_msg">Sorry! Sign up not successful. Please try again!</string>
+    <string name ="fb_button">CONNECT WITH FACEBOOK</string>
+    <string name ="pd_message">Loading Your Feed Wall</string>
+    <string name ="email_not_found_fb_acc">Unfortunately, we couldn\'t find enough information on your facebook account.
+Please use another login method </string>
+
+
+
+</resources>

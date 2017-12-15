@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/app_bar"/>
+
+    <ProgressBar
+        android:id="@+id/pb_vr_list"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+    <ListView
+        android:id="@+id/lv_vr_movie"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_height="match_parent"/>
+
+
+    <ProgressBar
+        android:id="@+id/pb_vr_list_bottom"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
